@@ -1,0 +1,3 @@
+python car.py detect --imgpath single_test_img/1.jpg --model mask_rcnn_coco_0030.h5 --maskoff --write -->detect without the mask overlay 
+
+python car.py detect --videopath single_test_vid/video.mp4 --model mask_rcnn_coco_0030.h5
